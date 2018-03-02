@@ -1,0 +1,19 @@
+{
+	"name": "https_with_redirect",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@moebius/http-graceful-shutdown": "^1.0.1",
+		"express": "4.16.2",
+		"http": "0.0.0",
+		"https": "1.0.0",
+		"pem": "1.12.3",
+		"mz": "2.7.0"
+	}
+}
