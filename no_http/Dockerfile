@@ -20,11 +20,6 @@ RUN npm install
 
 ADD app/ /app/
 
-ADD scripts/run.sh /run.sh
-ADD scripts/renew.sh /renew.sh
-RUN chmod +x /run.sh
-RUN chmod +x /renew.sh
-
 EXPOSE 443
 EXPOSE 80
 
